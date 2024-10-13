@@ -1,0 +1,9 @@
+        START 200
+        MOVER AREG    ='7'
+        MOVEM AREG    A
+L1      MOVER BREG    ='2'
+        ORIGIN L1+3
+        LTORG
+A       DS            1
+        END
+        

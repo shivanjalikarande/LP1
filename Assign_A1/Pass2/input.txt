@@ -1,0 +1,13 @@
+         START 200
+         READ  N
+LOOP     MOVER AREG    NUMBER
+         MOVER BREG    ='5'
+         ADD   AREG    BREG
+         DCR   AREG    ='1'
+         JNZ   LOOP
+         MOVEM N       AREG
+         PRINT N
+N        DC    10
+NUMBER   DC    20
+         END 
+
