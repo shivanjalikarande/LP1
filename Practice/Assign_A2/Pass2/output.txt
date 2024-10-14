@@ -1,0 +1,8 @@
+START
+ ADD AREG DATA2  
+ MOVER BREG DATA1
+ SUB AREG Y          
+ MOVER CREG Y          
+DATA2
+END
+

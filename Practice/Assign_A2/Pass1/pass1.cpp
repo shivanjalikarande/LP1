@@ -112,7 +112,7 @@ public:
 
                 // Store "MEND" in MDT
                 MDT.push_back("MEND");
-                ALA.clear(); 
+                // ALA.clear(); 
             }
             else if (word == "END")
             {
